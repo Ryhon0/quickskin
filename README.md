@@ -1,9 +1,14 @@
-# Fabric Example Mod
+# Quickskin
+Minecraft Fabric mod for flipping hand position and toggling skin parts using a keybind
 
-## Setup
+![Screenshot](screenshot0.jpg)
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## Instalation
+To install, run `./gradlew publishToMavenLocal` to generate a `.jar` file. The `.jar` file will be located in `./build/libs/`. Copy that file to your `.minecraft/mods` folder
+
+This mod was made for Minecraft 1.16.1, if you want it for a different version of Minecraft, fill out the [gradle.properties](gradle.properties) file with information from [here](https://modmuss50.me/fabric.html).
+
+Feel free to fork this project and add new features.
 
 ## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+[GPL-3.0 License](LICENSE)
