@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "quickskin",
   "version": "${version}",
 
   "name": "quickskin Mod",
-  "description": "This is an quickskin description! Tell everyone what your mod is about!",
+  "description": "Change skin settings with a keybind!",
   "authors": [
-    "Me!"
+    "Ryhon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-quickskin-mod"
+    "homepage": "https://ryhon.ga/",
+    "sources": "https://github.com/Ryhon0/quickskin"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-3.0",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
@@ -27,11 +27,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.16.x"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "1.19.x",
+    "fabric": "*"
   }
 }
