@@ -1,4 +1,7 @@
+<img src="icon.png" width=48 style="float:left" align="left">
+
 # Quickskin
+  
 Minecraft Fabric mod for flipping hand position and toggling skin parts using a keybind.  
 **NOTE:** On some servers with a custom protocol implementations or plugins this might not work or be delayed (e.g. Hypixel takes a long time to update the skin settings)
 
@@ -17,5 +20,6 @@ This mod was made for Minecraft 1.16.1, if you want it for a different version o
 
 Feel free to fork this project and add new features.
 
-## License
-[GPL-3.0 License](LICENSE)
+## Licenses
+[GPL-3.0 License](LICENSE)  
+[Key icon by Dream Mix](https://dreammix.itch.io/keyboard-keys-for-ui)
