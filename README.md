@@ -1,4 +1,4 @@
-<img src="icon.png" width=48 style="float:left" align="left">
+<img src="icon.png" width=64 align="left">
 
 # Quickskin
   
