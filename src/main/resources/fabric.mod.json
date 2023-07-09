@@ -3,7 +3,7 @@
   "id": "quickskin",
   "version": "${version}",
 
-  "name": "quickskin Mod",
+  "name": "Quickskin",
   "description": "Change skin settings with a keybind!",
   "authors": [
     "Ryhon"
@@ -14,7 +14,7 @@
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/quickskin/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -25,7 +25,7 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
-    "minecraft": "1.19.x",
+    "minecraft": "1.20.x",
     "fabric": "*"
   }
 }
