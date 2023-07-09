@@ -1,0 +1,12 @@
+{
+	"category.quickskin": "Quickskin - Change Skin Settings",
+	"key.quickskin.fliphand": "Flip Main Hand",
+	"key.quickskin.togglebody.CAPE": "Toggle Cape",
+	"key.quickskin.togglebody.HAT": "Toggle Hat",
+	"key.quickskin.togglebody.JACKET": "Toggle Body/Jacket",
+	"key.quickskin.togglebody.LEFT_PANTS_LEG": "Toggle Left Leg",
+	"key.quickskin.togglebody.LEFT_SLEEVE": "Toggle Left Arm",
+	"key.quickskin.togglebody.RIGHT_PANTS_LEG": "Toggle Right Leg",
+	"key.quickskin.togglebody.RIGHT_SLEEVE": "Toggle Right Arm",
+	"key.quickskin.toggleall": "Toggle All Skin Parts"
+}
