@@ -22,10 +22,6 @@
       "net.fabricmc.quickskin.quickskinMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",
