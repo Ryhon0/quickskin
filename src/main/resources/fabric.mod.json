@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.quickskin.quickskinMod"
+      "link.ryhn.quickskin.quickskinMod"
     ]
   },
   "depends": {
