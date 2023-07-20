@@ -1,0 +1,13 @@
+{
+	"modmenu.descriptionTranslation.quickskin": "Dostosowuj skórkę za pomocą skrótów klawiszowych",
+	"category.quickskin": "Quickskin — Dostosowuj skórkę",
+	"key.quickskin.fliphand": "Zmień główną rękę",
+	"key.quickskin.togglebody.CAPE": "Przełącz pelerynę",
+	"key.quickskin.togglebody.HAT": "Przełącz nakrycie głowy",
+	"key.quickskin.togglebody.JACKET": "Przełącz kurtkę",
+	"key.quickskin.togglebody.LEFT_PANTS_LEG": "Przełącz lewą nogawkę",
+	"key.quickskin.togglebody.LEFT_SLEEVE": "Przełącz lewy rękaw",
+	"key.quickskin.togglebody.RIGHT_PANTS_LEG": "Przełącz prawą nogawkę",
+	"key.quickskin.togglebody.RIGHT_SLEEVE": "Przełącz prawy rękaw",
+	"key.quickskin.toggleall": "Przełącz wszystkie części skórki"
+}
