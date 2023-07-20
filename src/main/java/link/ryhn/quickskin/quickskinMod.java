@@ -1,4 +1,4 @@
-package net.fabricmc.quickskin;
+package link.ryhn.quickskin;
 
 import org.lwjgl.glfw.GLFW;
 
