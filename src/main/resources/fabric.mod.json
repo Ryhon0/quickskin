@@ -1,31 +1,42 @@
 {
-  "schemaVersion": 1,
-  "id": "quickskin",
-  "version": "${version}",
-
-  "name": "Quickskin",
-  "description": "Change skin settings with a keybind!",
-  "authors": [
-    "Ryhon"
-  ],
-  "contact": {
-    "homepage": "https://github.com/Ryhon0/quickskin",
-    "sources": "https://github.com/Ryhon0/quickskin"
-  },
-
-  "license": "GPL-3.0",
-  "icon": "assets/quickskin/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "link.ryhn.quickskin.quickskinMod"
-    ]
-  },
-  "depends": {
-    "fabricloader": ">=0.14.9",
-    "fabric-api": "*",
-    "minecraft": "1.20.x",
-    "fabric": "*"
-  }
+	"schemaVersion": 1,
+	"id": "quickskin",
+	"version": "${version}",
+	"name": "Quickskin",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Ryhon"
+	],
+	"contact": {
+		"homepage": "https://ryhon.xyz/",
+		"sources": "https://github.com/Ryhon0/Quickskin",
+		"issues": "https://github.com/Ryhon0/Quickskin/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/quickskin/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"xyz.ryhon.quickskin.Quickskin"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "*",
+		"java": "*",
+		"fabric-api": "*"
+	},
+	"custom":
+	{
+		"modmenu":
+		{
+			"links":
+			{
+				"modmenu.donate": "https://github.com/sponsors/Ryhon0",
+				"modmenu.modrinth": "https://modrinth.com/mod/Quickskin",
+				"modmenu.github_releases": "https://github.com/Ryhon0/Quickskin/releases",
+				"modmenu.twitter": "https://twitter.com/RyhonDev"
+			}
+		}
+	}
 }

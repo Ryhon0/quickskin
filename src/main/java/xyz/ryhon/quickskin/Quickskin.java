@@ -1,4 +1,4 @@
-package link.ryhn.quickskin;
+package xyz.ryhon.quickskin;
 
 import org.lwjgl.glfw.GLFW;
 
@@ -10,9 +10,9 @@ import net.minecraft.util.Arm;
 import net.minecraft.client.option.GameOptions;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.option.SimpleOption;
-import net.minecraft.client.render.entity.PlayerModelPart;
+import net.minecraft.entity.player.PlayerModelPart;
 
-public class quickskinMod implements ModInitializer {
+public class Quickskin implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		// flip hands
@@ -28,7 +28,7 @@ public class quickskinMod implements ModInitializer {
 				while (keyBinding.wasPressed())
 				{
 					GameOptions gameOptions = client.options;
-					SimpleOption arm = gameOptions.getMainArm();
+					SimpleOption<Arm> arm = gameOptions.getMainArm();
 					Boolean isright = arm.getValue() == Arm.RIGHT;
 					gameOptions.getMainArm().setValue(isright ? Arm.LEFT : Arm.RIGHT);
 					gameOptions.write();
@@ -75,7 +75,6 @@ public class quickskinMod implements ModInitializer {
 				{
 					GameOptions gameOptions = client.options;
 
-					// There's probably an equivalent to C#'s Linq but I don't want to spend 5 hours finding it
 					Boolean anyEnabled = false;
 					for(PlayerModelPart p : PlayerModelPart.values())
 					{
