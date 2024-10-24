@@ -53,7 +53,7 @@ public class Quickskin implements ModInitializer {
 					{
 						GameOptions gameOptions = client.options;
 
-						gameOptions.togglePlayerModelPart(p, !gameOptions.isPlayerModelPartEnabled(p));
+						gameOptions.setPlayerModelPart(p, !gameOptions.isPlayerModelPartEnabled(p));
 						gameOptions.write();
 					}
 				});
@@ -87,7 +87,7 @@ public class Quickskin implements ModInitializer {
 
 					for(PlayerModelPart p : PlayerModelPart.values())
 					{
-						gameOptions.togglePlayerModelPart(p, !anyEnabled);
+						gameOptions.setPlayerModelPart(p, !anyEnabled);
 					}
 					gameOptions.write();
 				}
