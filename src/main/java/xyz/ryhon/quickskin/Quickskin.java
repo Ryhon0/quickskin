@@ -7,21 +7,24 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.util.Arm;
+import net.minecraft.util.Identifier;
 import net.minecraft.client.option.GameOptions;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.option.SimpleOption;
+import net.minecraft.client.option.KeyBinding.Category;
 import net.minecraft.entity.player.PlayerModelPart;
 
 public class Quickskin implements ModInitializer {
 	@Override
 	public void onInitialize() {
+		var cat = Category.create(Identifier.of("quickskin", "quickskin"));
 		// flip hands
 		{
 			KeyBinding keyBinding = new KeyBinding(
 				"key.quickskin.fliphand",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_UNKNOWN,
-				"category.quickskin"
+				cat
 			);
 			KeyBindingHelper.registerKeyBinding(keyBinding);
 			ClientTickEvents.END_CLIENT_TICK.register(client -> {		 
@@ -44,7 +47,7 @@ public class Quickskin implements ModInitializer {
 						"key.quickskin.togglebody." + p,
 						InputUtil.Type.KEYSYM,
 						GLFW.GLFW_KEY_UNKNOWN,
-						"category.quickskin"
+						cat
 					);
 				KeyBindingHelper.registerKeyBinding(keyBinding);
 
@@ -66,7 +69,7 @@ public class Quickskin implements ModInitializer {
 				"key.quickskin.toggleall",
 				InputUtil.Type.KEYSYM,
 				GLFW.GLFW_KEY_UNKNOWN,
-				"category.quickskin"
+				cat
 			);
 			KeyBindingHelper.registerKeyBinding(keyBinding);
 
